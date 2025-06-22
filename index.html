@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Researcher Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Particle.js Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Souhail</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animated fadeInDown">Advancing AI Through Research</h1>
+                <p class="animated fadeInUp delay-1">Data Scientist | Generative AI | AI Researcher</p>
+                <a href="#projects" class="btn animated fadeInUp delay-2">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-pic">
+                    <img src="images/profile.jpg" alt="Profile Picture" class="animated fadeInLeft">
+                </div>
+                <div class="bio animated fadeInRight">
+                    <h3>Hello, I'm Souhail</h3>
+                    <p>I'm a passionate Artificial Intelligence enthusiast with a strong foundation in Machine Learning and Deep Learning. I hold a Master's degree in Data Science and Artificial Intelligence. During my academic journey, I took courses in Machine Learning, Deep Learning, Natural Language Processing, and Computer Vision.</p>
+                    <p>As part of my master's degree, I conducted an end-of-study internship at one of the largest laboratories in France, where I worked on text-to-image generation, gaining hands-on research experience. I aspire to further expand my expertise through a PhD and contribute to cutting-edge advancements in AI.</p>
+                    <div class="skills">
+                        <h4>Technical Skills</h4>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>PyTorch</span>
+                            <span>Scikit-learn</span>
+                            <span>NLP</span>
+                            <span>Computer Vision</span>
+                            <span>Data Visualization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">AI Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card animated fadeInUp">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Project 1">
+                        <div class="overlay">
+                            <a href="https://github.com/SOUHAILELALLALY/Resume_Analysis_Application" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Job recommendation system</h3>
+                        <p>I developed a job recommendation system that utilizes the k-Nearest Neighbors (KNN) algorithm to determine the most relevant field based on a candidate's CV. The system efficiently scrapes and collects job postings from platforms like LinkedIn and Indeed, providing tailored job recommendations. Built with Streamlit, the project integrates machine learning and web scraping to enhance the job search experience.</p>
+                        <div class="project-tags">
+                            <span>Scikit-learn</span>
+                            <span>BeautifulSoup</span>
+                            <span>Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card animated fadeInUp delay-1">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Project 2">
+                        <div class="overlay">
+                            <a href="https://github.com/SOUHAILELALLALY/Car-Brand-Identification" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Car Brand Identification</h3>
+                        <p>This project utilizes a Convolutional Neural Network (CNN) to classify car images accurately. The model analyzes each image and determines the corresponding tag for the car, enabling efficient and automated identification.</p>
+                        <div class="project-tags">
+                            <span>PyTorch</span>
+                            <span>Scikit-learn</span>
+                            <span>Streamlit</span>
+                            <span>LLMs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card animated fadeInUp delay-1">
+                    <div class="project-image">
+                        <img src="images/project3.png" alt="Project 3">
+                        <div class="overlay">
+                            <a href="https://github.com/SOUHAILELALLALY/dijkstra_algorithm" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Optimization Project</h3>
+                        <p>Dijkstra's algorithm is a fundamental graph-based algorithm used to find the shortest path from a source node to all other nodes in a weighted graph. It works by iteratively selecting the node with the smallest known distance, updating the distances of its neighboring nodes, and marking it as visited. This process continues until all nodes have been processed or the shortest path to a specific destination is found. The algorithm efficiently handles graphs with non-negative weights and is widely used in network routing, GPS navigation, and pathfinding in artificial intelligence.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card animated fadeInUp delay-1">
+                    <div class="project-image">
+                        <img src="images/project4.jpg" alt="Project 4">
+                        <div class="overlay">
+                            <a href="https://github.com/SOUHAILELALLALY/Hate_Speech_Detection" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>hate speech detection</h3>
+                        <p>This project focuses on implementing a hate speech detection model using machine learning techniques. The process is structured into key stages, including data preprocessing, feature extraction, and model training. For the training phase, we utilized the Random Forest algorithm.</p>
+                        <div class="project-tags">
+                            <span>Scikit-learn</span>
+                            <span>NLP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card animated fadeInUp delay-1">
+                    <div class="project-image">
+                        <img src="images/project5.png" alt="Project 5">
+                        <div class="overlay">
+                            <a href="https://github.com/SOUHAILELALLALY/DNN-with-Adam-Optimization" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>DNN from scratch</h3>
+                        <p>This project involves implementing a Deep Neural Network (DNN) from scratch for image classification using the CIFAR-10 dataset. The model is optimized with the Adam algorithm to enhance learning efficiency. The process includes data preprocessing, network initialization, training with forward and backward propagation, and performance evaluation.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Scientific Publications</h2>
+            <div class="publications-list">
+                <div class="publication-card animated fadeInUp">
+                    <div class="pub-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="pub-details">
+                        <h3>DALL-E Brain: Generating 2D T1-w, T2-w, and FLAIR Brain MRI Images from Textual Prompts.</h3>
+                        <p class="pub-authors">El-Allaly, S., Grenier, T., & Muller, C</p>
+                        <p class="pub-conference">EUSIPCO, 2025</p>
+                        <div class="pub-links">
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-card animated fadeInUp">
+                    <div class="pub-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="pub-details">
+                        <h3>Generation of 2D T1, T2, and FLAIR MRI images from a prompt.</h3>
+                        <p class="pub-authors">El-Allaly, S., Grenier, T., & Muller, C</p>
+                        <p class="pub-conference">IABM, 2025</p>
+                        <div class="pub-links">
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more publications as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certs-grid">
+                <div class="cert-card animated fadeInUp">
+                    <div class="cert-image">
+                        <img src="assets/certificates/cert1.jpg" alt="Certification 1">
+                        <div class="cert-overlay">
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/ZCCH3XXBAVJZ" target="_blank" class="cert-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Advanced Learning Algorithms</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+
+                <div class="cert-card animated fadeInUp">
+                    <div class="cert-image">
+                        <img src="assets/certificates/cert2.jpg" alt="Certification 2">
+                        <div class="cert-overlay">
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/QRTWXVK8BYF9" target="_blank" class="cert-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Supervised Machine Learning: Regression and Classification</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+
+                <div class="cert-card animated fadeInUp">
+                    <div class="cert-image">
+                        <img src="assets/certificates/cert3.jpg" alt="Certification 3">
+                        <div class="cert-overlay">
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/2KU4PHDZKKAV" target="_blank" class="cert-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Unsupervised Learning, Recommenders, Reinforcement Learning</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+
+                <div class="cert-card animated fadeInUp">
+                    <div class="cert-image">
+                        <img src="assets/certificates/cert4.jpg" alt="Certification 4">
+                        <div class="cert-overlay">
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/RT7LX6HQVZM3" target="_blank" class="cert-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Databases and SQL for Data Science with Python</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+
+                <div class="cert-card animated fadeInUp">
+                    <div class="cert-image">
+                        <img src="assets/certificates/cert5.jpg" alt="Certification 4">
+                        <div class="cert-overlay">
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/C4SK8M233YJS" target="_blank" class="cert-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>ETL and Data Pipelines with Shell, Airflow and Kafka</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <!-- Add more certifications as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info animated fadeInLeft">
+                    <h3>Let's collaborate on AI research</h3>
+                    <p>I'm actively seeking PhD opportunities and research collaborations in artificial intelligence.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-envelope"></i> souhail.elallaly@gmail.com</p>
+                        
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/SOUHAILELALLALY" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="http://www.linkedin.com/in/souhailelallaly" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        
+                    </div>
+                </div>
+                <!--
+                <form class="contact-form animated fadeInRight">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Souhail. All rights reserved.</p>
+            <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
